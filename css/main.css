@@ -643,7 +643,7 @@ textarea {
   }
 }
 .icon-sprite, .icon-apple, .icon-bracket, .icon-codescreen, .icon-computer, .icon-github, .icon-headphones, .icon-mouse, .icon-mousefull, .icon-opensource, .icon-phone, .icon-sass, .icon-youtube {
-  background-image: url('../img/icon-s3b90bb4ec4.png');
+  background-image: url('../img/icon-s3766ddfa62.png');
   background-repeat: no-repeat;
 }
 
@@ -652,47 +652,47 @@ textarea {
 }
 
 .icon-bracket {
-  background-position: 0 -300px;
+  background-position: 0 -100px;
 }
 
 .icon-codescreen {
-  background-position: 0 -600px;
+  background-position: 0 -200px;
 }
 
 .icon-computer {
-  background-position: 0 -900px;
+  background-position: 0 -300px;
 }
 
 .icon-github {
-  background-position: 0 -1200px;
+  background-position: 0 -400px;
 }
 
 .icon-headphones {
-  background-position: 0 -1500px;
+  background-position: 0 -500px;
 }
 
 .icon-mouse {
-  background-position: 0 -1800px;
+  background-position: 0 -600px;
 }
 
 .icon-mousefull {
-  background-position: 0 -2100px;
+  background-position: 0 -700px;
 }
 
 .icon-opensource {
-  background-position: 0 -2400px;
+  background-position: 0 -800px;
 }
 
 .icon-phone {
-  background-position: 0 -2700px;
+  background-position: 0 -900px;
 }
 
 .icon-sass {
-  background-position: 0 -3000px;
+  background-position: 0 -1000px;
 }
 
 .icon-youtube {
-  background-position: 0 -3300px;
+  background-position: 0 -1100px;
 }
 
 header {
@@ -704,34 +704,28 @@ header {
 }
 
 html {
-  background: url("../img/spritebg.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #000;
 }
 
 h1 {
-  color: #808080;
+  color: #ffae43;
   font-family: "Rouge Script", cursive;
-  font-size: 5em;
+  font-size: 5.5em;
   text-align: center;
 }
 
 h2 {
   font-family: "Lato", sans-serif;
-  color: #808080;
+  color: #ffae43;
   margin-top: -80px;
   text-align: center;
   letter-spacing: 0.2em;
+  margin-bottom: 50px;
 }
 
 ul {
-  width: 100px;
-  height: 100px;
+  width: 100%;
   text-align: center;
-  padding: 0px;
-  margin-top: 10px;
 }
 ul li {
   list-style: none;
@@ -740,8 +734,8 @@ ul li {
 }
 ul li a {
   display: inline-block;
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
 }
 ul li a span {
   position: absolute;

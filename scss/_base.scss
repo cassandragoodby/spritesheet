@@ -10,43 +10,43 @@ header {
 }
 
 html{
-	
-	background: url("../img/spritebg.png") no-repeat center center fixed; 
-  	 -webkit-background-size: cover;
-  	 -moz-background-size: cover;
-  	 -o-background-size: cover;
-  	 background-size: cover;
+	background-color: #000;
+	// background: url("../img/spritebg.png") no-repeat center center fixed; 
+  	 // -webkit-background-size: cover;
+  	 // -moz-background-size: cover;
+  	 // -o-background-size: cover;
+  	 // background-size: cover;
 }
 
 h1{
-	color: #808080;
+	color: #ffae43;
 	font-family: $h1font;
-	font-size: 5em;
+	font-size: 5.5em;
 	@include centerit;
 }
+
+
 
 h2{
 	font-family: $h2font;
-	color: #808080;
+	color: #ffae43;
 	margin-top: -80px;
 	@include centerit;
 	letter-spacing: 0.2em;
+	margin-bottom: 50px;
 }
 
 ul{
-	width: 100px;
-	height: 100px;
+	width: 100%;
 	@include centerit;
-	padding: 0px;
-	margin-top: 10px;
 	li{
 		 list-style: none;
 		 display: inline-block;
 		 padding: 10px;
 		a{
 			 display: inline-block;
-			 width: 300px;
-			 height: 300px;
+			 width: 100px;
+			 height: 100px;
 			// zoom:.5;
 			span{
 				 position: absolute;
