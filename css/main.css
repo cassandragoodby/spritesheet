@@ -642,6 +642,59 @@ textarea {
     page-break-after: avoid;
   }
 }
+.icon-sprite, .icon-apple, .icon-bracket, .icon-codescreen, .icon-computer, .icon-github, .icon-headphones, .icon-mouse, .icon-mousefull, .icon-opensource, .icon-phone, .icon-sass, .icon-youtube {
+  background-image: url('../img/icon-s3b90bb4ec4.png');
+  background-repeat: no-repeat;
+}
+
+.icon-apple {
+  background-position: 0 0;
+}
+
+.icon-bracket {
+  background-position: 0 -300px;
+}
+
+.icon-codescreen {
+  background-position: 0 -600px;
+}
+
+.icon-computer {
+  background-position: 0 -900px;
+}
+
+.icon-github {
+  background-position: 0 -1200px;
+}
+
+.icon-headphones {
+  background-position: 0 -1500px;
+}
+
+.icon-mouse {
+  background-position: 0 -1800px;
+}
+
+.icon-mousefull {
+  background-position: 0 -2100px;
+}
+
+.icon-opensource {
+  background-position: 0 -2400px;
+}
+
+.icon-phone {
+  background-position: 0 -2700px;
+}
+
+.icon-sass {
+  background-position: 0 -3000px;
+}
+
+.icon-youtube {
+  background-position: 0 -3300px;
+}
+
 header {
   top: 0;
   margin: 0;
@@ -670,4 +723,26 @@ h2 {
   color: #808080;
   margin-top: -80px;
   text-align: center;
+  letter-spacing: 0.2em;
+}
+
+ul {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 0px;
+  margin-top: 10px;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+ul li a {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+ul li a span {
+  position: absolute;
 }

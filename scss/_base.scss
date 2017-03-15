@@ -1,5 +1,5 @@
-// @import 'icon/*.png';
-// @include all-icon-sprites;
+@import 'icon/*.png';
+@include all-icon-sprites;
 
 header {
 	top: 0;
@@ -30,5 +30,28 @@ h2{
 	color: #808080;
 	margin-top: -80px;
 	@include centerit;
-	// letter-spacing: 0.5em;
+	letter-spacing: 0.2em;
 }
+
+ul{
+	width: 100px;
+	height: 100px;
+	@include centerit;
+	padding: 0px;
+	margin-top: 10px;
+	li{
+		 list-style: none;
+		 display: inline-block;
+		 padding: 10px;
+		a{
+			 display: inline-block;
+			 width: 300px;
+			 height: 300px;
+			// zoom:.5;
+			span{
+				 position: absolute;
+				
+			}//span
+		}//a
+	} //li
+} //ul
