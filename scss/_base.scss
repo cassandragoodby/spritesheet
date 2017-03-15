@@ -39,6 +39,7 @@ h2{
 ul{
 	width: 100%;
 	@include centerit;
+	padding-left: 0px;
 	li{
 		 list-style: none;
 		 display: inline-block;
@@ -55,3 +56,14 @@ ul{
 		}//a
 	} //li
 } //ul
+
+@media only screen and (max-width: 800px){
+	div{
+		width: 400px;
+		 margin: auto;
+	}
+
+	.iconsdiv2{
+		padding-bottom: 50px;
+	}
+}
