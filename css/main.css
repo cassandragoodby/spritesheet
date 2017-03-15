@@ -643,56 +643,92 @@ textarea {
   }
 }
 .icon-sprite, .icon-apple, .icon-bracket, .icon-codescreen, .icon-computer, .icon-github, .icon-headphones, .icon-mouse, .icon-mousefull, .icon-opensource, .icon-phone, .icon-sass, .icon-youtube {
-  background-image: url('../img/icon-s3766ddfa62.png');
+  background-image: url('../img/icon-s09d922ce46.png');
   background-repeat: no-repeat;
 }
 
 .icon-apple {
+  background-position: 0 -100px;
+}
+.icon-apple:hover, .icon-apple.apple-hover {
   background-position: 0 0;
 }
 
 .icon-bracket {
-  background-position: 0 -100px;
+  background-position: 0 -300px;
 }
-
-.icon-codescreen {
+.icon-bracket:hover, .icon-bracket.bracket-hover {
   background-position: 0 -200px;
 }
 
-.icon-computer {
-  background-position: 0 -300px;
+.icon-codescreen {
+  background-position: 0 -500px;
 }
-
-.icon-github {
+.icon-codescreen:hover, .icon-codescreen.codescreen-hover {
   background-position: 0 -400px;
 }
 
-.icon-headphones {
-  background-position: 0 -500px;
+.icon-computer {
+  background-position: 0 -700px;
 }
-
-.icon-mouse {
+.icon-computer:hover, .icon-computer.computer-hover {
   background-position: 0 -600px;
 }
 
-.icon-mousefull {
-  background-position: 0 -700px;
+.icon-github {
+  background-position: 0 -900px;
 }
-
-.icon-opensource {
+.icon-github:hover, .icon-github.github-hover {
   background-position: 0 -800px;
 }
 
-.icon-phone {
-  background-position: 0 -900px;
+.icon-headphones {
+  background-position: 0 -1100px;
 }
-
-.icon-sass {
+.icon-headphones:hover, .icon-headphones.headphones-hover {
   background-position: 0 -1000px;
 }
 
+.icon-mouse {
+  background-position: 0 -1300px;
+}
+.icon-mouse:hover, .icon-mouse.mouse-hover {
+  background-position: 0 -1200px;
+}
+
+.icon-mousefull {
+  background-position: 0 -1500px;
+}
+.icon-mousefull:hover, .icon-mousefull.mousefull-hover {
+  background-position: 0 -1400px;
+}
+
+.icon-opensource {
+  background-position: 0 -1700px;
+}
+.icon-opensource:hover, .icon-opensource.opensource-hover {
+  background-position: 0 -1600px;
+}
+
+.icon-phone {
+  background-position: 0 -1900px;
+}
+.icon-phone:hover, .icon-phone.phone-hover {
+  background-position: 0 -1800px;
+}
+
+.icon-sass {
+  background-position: 0 -2100px;
+}
+.icon-sass:hover, .icon-sass.sass-hover {
+  background-position: 0 -2000px;
+}
+
 .icon-youtube {
-  background-position: 0 -1100px;
+  background-position: 0 -2300px;
+}
+.icon-youtube:hover, .icon-youtube.youtube-hover {
+  background-position: 0 -2200px;
 }
 
 header {
